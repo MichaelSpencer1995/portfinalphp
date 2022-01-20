@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Spencer | Web Solutions</title>
+    <link rel="icon" href="assets/icon.ico">
     <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,korean,latin-ext,vietnamese" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <section id="header">
-    <nav>
+    <nav id="nav">
         <ul class="page-container">
             <li>
-                <button class="btn btn-primary">Recent work</button>
-                <button class="btn btn-secondary">I need a website</button>
+                <button class="btn btn-primary nav-btn">Recent work</button>
+                <button class="btn btn-secondary nav-btn">I need a website</button>
             </li>
             <li>
                 <ul>
@@ -31,8 +33,8 @@
         <h1>Michael Spencer</h1>
         <p>Beautifully Created Web Experiences</p>
         <div class="cta-container">
-            <button class="btn btn-primary">Recent work</button>
-            <button class="btn btn-secondary">Web Solution</button>
+            <button class="btn btn-primary header-btn">Recent work</button>
+            <button class="btn btn-secondary header-btn">Web Solution</button>
         </div>
     </div>
 </section>
