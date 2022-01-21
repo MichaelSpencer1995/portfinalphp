@@ -18,9 +18,9 @@
                 <button class="btn btn-primary nav-btn">Recent work</button>
                 <button class="btn btn-secondary nav-btn">I need a website</button>
             </li>
-            <li>
+            <li class="hide-mobile">
                 <ul>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#" class="margin-delete">About</a></li>
                     <li><a href="#">Recent Work</a></li>
                     <li><a href="#">Get In Touch</a></li>
                 </ul>
@@ -29,7 +29,7 @@
     </nav>
     <div class="hero"></div>
     <div class="overlay"></div>
-    <div class="header-content">
+    <div class="header-content page-container">
         <h1>Michael Spencer</h1>
         <p>Beautifully Created Web Experiences</p>
         <div class="cta-container">
@@ -150,7 +150,9 @@
                 </div>
                 <input type="submit" value="Inquire">
             </form>
-            <iframe width="50%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=200%20millard%20st%20georgetown%20tx%2078628+(Your%20Business%20Name)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <div class="iframe-container">
+                <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=200%20millard%20st%20georgetown%20tx%2078628+(Your%20Business%20Name)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
         </div>
     </div>
 </section>
