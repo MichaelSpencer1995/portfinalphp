@@ -130,8 +130,32 @@
     <div class="page-container">
         <h2>Get In Touch</h2>
         <p>Contact me for help in web solutions.</p>
+        <?php
+            // mail('mspencerphpserver@gmail.com', 'Test Subject', 'Hello World', 'From: mspencerphpserver@gmail.com');
+            // mail('biglazypitufo@gmail.com', 'Test Subject2', 'Hello World', 'From: mspencerphpserver@gmail.com');
+            if(isset($_POST['submit'])) {
+                $name = $_POST['name'];
+                $number = $_POST['number'];
+                $email = $_POST['email'];
+                $message = $_POST['message'];
+
+                if(empty($name) || empty($number) || empty($email) || empty($message)) {
+                    ?>
+                    <p class="error-message">
+                        <?php echo "All input fields are required!"; ?>
+                    </p>
+                    <?php
+                } else {
+                    ?>
+                    <p class="error-message">
+                        <?php echo "Success"; ?>
+                    </p>
+                    <?php
+                }
+            }
+        ?>
         <div class="contact-container">
-            <form action="" class="contact-form">
+            <form action="#" method="POST" autocomplete="off" class="contact-form">
                 <div>
                     <label for="name">Name</label>
                     <input id="name" type="text" name="name">
@@ -148,7 +172,9 @@
                     <label for="Message">Message</label>
                     <textarea id="message" type="text" name="message"></textarea>
                 </div>
-                <input type="submit" value="Inquire">
+                <div>
+                    <input type="submit" value="Inquire" name="submit">
+                </div>
             </form>
             <div class="iframe-container">
                 <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=200%20millard%20st%20georgetown%20tx%2078628+(Your%20Business%20Name)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
