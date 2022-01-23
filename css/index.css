@@ -285,11 +285,32 @@ section#contact h2 {
 }
 
 section#contact p {
-    margin-bottom: 54px;
+    margin-bottom: 14px;
 }
 
 .contact-form {
     width: 48%;
+}
+
+#form-response {
+    font-size: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.error-msg {
+    background: #f8d7da;
+    color: #970000;
+    border: #970000 1px solid;
+}
+
+.success-msg {
+    background:#d1e7dd;
+    color: #0b7613;
+    border: #0b7613 1px solid;
 }
 
 .contact-form div {

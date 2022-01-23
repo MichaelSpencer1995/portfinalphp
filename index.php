@@ -141,21 +141,21 @@
 
                 if(empty($name) || empty($number) || empty($email) || empty($message)) {
                     ?>
-                    <p class="error-message">
-                        <?php echo "All input fields are required!"; ?>
-                    </p>
+                        <div id="form-response" class="error-msg">
+                            <?php echo "All input fields are required!"; ?>
+                        </div>
                     <?php
                 } else {
                     ?>
-                    <p class="error-message">
-                        <?php echo "Success"; ?>
-                    </p>
+                        <div id="form-response" class="success-msg">
+                            <?php echo "Your message was sent succesfully."; ?>
+                        </div>
                     <?php
                 }
             }
         ?>
         <div class="contact-container">
-            <form action="#" method="POST" autocomplete="off" class="contact-form">
+            <form action="#form-response" method="POST" autocomplete="off" class="contact-form">
                 <div>
                     <label for="name">Name</label>
                     <input id="name" type="text" name="name">

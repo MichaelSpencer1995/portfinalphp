@@ -27,3 +27,10 @@ function handleScroll() {
         navBtn[1].classList.add('hide')
     }
 }
+
+
+// const errorMsg = document.querySelector('#error-msg p')
+// errorMsg.style.display = 'none'
+// document.getElementById('submit-form').addEventListener('click', function(e){
+//     e.preventDefault()
+// })
