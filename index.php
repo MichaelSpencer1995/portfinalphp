@@ -16,7 +16,7 @@
         <ul class="page-container">
             <li>
                 <button class="btn btn-primary nav-btn">Recent work</button>
-                <button class="btn btn-secondary nav-btn">I need a website</button>
+                <button class="btn btn-secondary nav-btn">Web Solutions</button>
             </li>
             <li class="hide-mobile">
                 <ul>
@@ -34,7 +34,7 @@
         <p>Beautifully Created Web Experiences</p>
         <div class="cta-container">
             <button class="btn btn-primary header-btn">Recent work</button>
-            <button class="btn btn-secondary header-btn">Web Solution</button>
+            <button class="btn btn-secondary header-btn">Web Solutions</button>
         </div>
     </div>
 </section>
@@ -173,7 +173,7 @@
                     <textarea id="message" type="text" name="message"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Inquire" name="submit">
+                    <input id="submit-form" type="submit" value="Inquire" name="submit">
                 </div>
             </form>
             <div class="iframe-container">
