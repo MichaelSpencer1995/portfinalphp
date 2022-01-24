@@ -7,6 +7,7 @@
     <title>Michael Spencer | Web Solutions</title>
     <link rel="icon" href="assets/icon.ico">
     <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,korean,latin-ext,vietnamese" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
@@ -44,16 +45,16 @@
         <p>My name is Michael Spencer, I am a freelance web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
         <div class="techs-container">
             <div class="tech">
-                <img src="assets/js-square.svg" alt="" class="tech-icon">
-                <h4>Javascript</h4>
-            </div>
-            <div class="tech">
                 <img src="assets/html5.svg" alt="" class="tech-icon">
                 <h4>HTML5</h4>
             </div>
             <div class="tech">
                 <img src="assets/css3-alt.svg" alt="" class="tech-icon">
                 <h4>CSS3</h4>
+            </div>
+            <div class="tech">
+                <img src="assets/js-square.svg" alt="" class="tech-icon">
+                <h4>Javascript</h4>
             </div>
             <div class="tech">
                 <img src="assets/mobile-alt.svg" alt="" class="tech-icon">
@@ -90,22 +91,22 @@
         <h2>Recent Work</h2>
         <p>Web Mock-ups and javascript apps</p>
         <div class="works-container">
-            <div class="work">
-                <div class="work-overlay c1"></div>
-                <h4>Simon</h4>
-                <img src="assets/w1.png" alt="" class="work-img">
-            </div>
-            <div class="work">
+            <a href="https://ms2048.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c2"></div>
                 <h4>2048</h4>
-                <img src="assets/w2.png" alt="" class="work-img">
-            </div>
-            <div class="work">
-                <div class="work-overlay c3"></div>
+                <img src="assets/w1.png" alt="" class="work-img">
+            </a>
+            <a href="https://moove-it-1995.herokuapp.com/" target="blank" class="work">
+                <div class="work-overlay c4"></div>
                 <h4>Moove-it Mock</h4>
+                <img src="assets/w2.png" alt="" class="work-img">
+            </a>
+            <a href="https://twitch-1995.herokuapp.com/" target="blank" class="work">
+                <div class="work-overlay c5"></div>
+                <h4>Twitch Viewer</h4>
                 <img src="assets/w3.png" alt="" class="work-img">
-            </div>
-            <div class="work">
+            </a>
+            <!-- <div class="work">
                 <div class="work-overlay c4"></div>
                 <h4>Twitch Viewer</h4>
                 <img src="assets/w4.png" alt="" class="work-img">
@@ -119,7 +120,7 @@
                 <div class="work-overlay c6"></div>
                 <h4>Real Estate</h4>
                 <img src="assets/w6.png" alt="" class="work-img">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -131,8 +132,6 @@
         <h2>Get In Touch</h2>
         <p>Contact me for help in web solutions.</p>
         <?php
-            // mail('mspencerphpserver@gmail.com', 'Test Subject', 'Hello World', 'From: mspencerphpserver@gmail.com');
-            // mail('biglazypitufo@gmail.com', 'Test Subject2', 'Hello World', 'From: mspencerphpserver@gmail.com');
             if(isset($_POST['submit'])) {
                 $name = $_POST['name'];
                 $number = $_POST['number'];
@@ -141,21 +140,29 @@
 
                 if(empty($name) || empty($number) || empty($email) || empty($message)) {
                     ?>
-                        <div id="form-response" class="error-msg">
+                        <div class="form-submit-msg error-msg">
                             <?php echo "All input fields are required!"; ?>
                         </div>
                     <?php
                 } else {
-                    ?>
-                        <div id="form-response" class="success-msg">
-                            <?php echo "Your message was sent succesfully."; ?>
-                        </div>
-                    <?php
+                    if(mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: mspencerphpserver@gmail.com')) {
+                        ?>
+                            <div class="form-submit-msg success-msg">
+                                <?php echo "Your message was sent succesfully."; ?>
+                            </div>
+                        <?php
+                    } else {
+                        ?>
+                            <div class="form-submit-msg error-msg">
+                                <?php echo "There is a problem with the server."; ?>
+                            </div>
+                         <?php
+                    }
                 }
             }
         ?>
         <div class="contact-container">
-            <form action="#form-response" method="POST" autocomplete="off" class="contact-form">
+            <form action="#contact" method="POST" autocomplete="off" class="contact-form">
                 <div>
                     <label for="name">Name</label>
                     <input id="name" type="text" name="name">
