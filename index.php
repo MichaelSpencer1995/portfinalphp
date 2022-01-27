@@ -21,9 +21,9 @@
             </li>
             <li class="hide-mobile">
                 <ul>
-                    <li><a href="#" class="margin-delete">About</a></li>
-                    <li><a href="#">Recent Work</a></li>
-                    <li><a href="#">Get In Touch</a></li>
+                    <li><button class="nav-links margin-delete">About</button></li>
+                    <li><button class="nav-links">Recent Work</button></li>
+                    <li><button class="nav-links">Get In Touch</button></li>
                 </ul>
             </li>
         </ul>
@@ -71,12 +71,12 @@
             <div class="wicd">
                 <i class="fas fa-th-list fa-3x"></i>
                 <h4>UX/UI Design</h4>
-                <p>Imagine, wireframe, sketch, and create simple, aesthetic, user-friendly, and fully functional user interfaces.</p>
+                <p>Imagine, wireframe, sketch, and create simple, intuitive, aesthetic, user-friendly, websites and user interfaces.</p>
             </div>
             <div class="wicd">
                 <i class="far fa-lightbulb fa-3x"></i>
                 <h4>Business Solutions</h4>
-                <p>I'll take care of "how it is going to look attractive" and "how it is going to work effectively.</p>
+                <p>I'll take care of "how it is going to look attractive" and "how it is going to work effectively."</p>
             </div>
             <div class="wicd">
                 <i class="fas fa-code-branch fa-3x"></i>
@@ -106,21 +106,6 @@
                 <h4>Twitch Viewer</h4>
                 <img src="assets/w3.png" alt="" class="work-img">
             </a>
-            <!-- <div class="work">
-                <div class="work-overlay c4"></div>
-                <h4>Twitch Viewer</h4>
-                <img src="assets/w4.png" alt="" class="work-img">
-            </div>
-            <div class="work">
-                <div class="work-overlay c5"></div>
-                <h4>Pomodoro Clock</h4>
-                <img src="assets/w5.png" alt="" class="work-img">
-            </div>
-            <div class="work">
-                <div class="work-overlay c6"></div>
-                <h4>Real Estate</h4>
-                <img src="assets/w6.png" alt="" class="work-img">
-            </div> -->
         </div>
     </div>
 </section>
@@ -141,7 +126,7 @@
                 if(empty($name) || empty($number) || empty($email) || empty($message)) {
                     ?>
                         <div class="form-submit-msg error-msg">
-                            <?php echo "All input fields are required!"; ?>
+                            <?php echo "*All input fields are required!"; ?>
                         </div>
                     <?php
                 } else {
@@ -162,23 +147,58 @@
             }
         ?>
         <div class="contact-container">
-            <form action="#contact" method="POST" autocomplete="off" class="contact-form">
-                <div>
-                    <label for="name">Name</label>
-                    <input id="name" type="text" name="name">
-                </div>
-                <div>
-                    <label for="number">Number</label>
-                    <input id="number" type="text" name="number">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input id="email" type="text" name="email">
-                </div>
-                <div>
-                    <label for="Message">Message</label>
-                    <textarea id="message" type="text" name="message"></textarea>
-                </div>
+            <form id="form" action="#contact" method="POST" autocomplete="off" class="contact-form">
+            <?php
+                if(isset($_POST['submit'])) {
+                    $name = $_POST['name'];
+                    $number = $_POST['number'];
+                    $email = $_POST['email'];
+                    $message = $_POST['message'];
+                ?>
+                    <div>
+                        <label for="name">Name</label>
+                        <?php
+                            echo '<input id="name" type="text" name="name" value="' . $name . '" >';
+                        ?>
+                    </div>
+                    <div>
+                        <label for="number">Number</label>
+                        <?php
+                            echo '<input id="number" type="text" name="number" value="' . $number . '" >';
+                        ?>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <?php
+                            echo '<input id="email" type="text" name="email" value="' . $email . '" >';
+                        ?>
+                    </div>
+                    <div>
+                        <label for="Message">Message</label>
+                        <textarea id="message" type="text" name="message"><?php echo htmlspecialchars($message); ?></textarea>
+                    </div>
+                <?php
+                } else {
+                ?>
+                    <div>
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="number">Number</label>
+                        <input id="number" type="text" name="number">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="text" name="email">
+                    </div>
+                    <div>
+                        <label for="Message">Message</label>
+                        <textarea id="message" type="text" name="message"></textarea>
+                    </div>
+                    <?php
+                }
+                ?>
                 <div>
                     <input id="submit-form" type="submit" value="Inquire" name="submit">
                 </div>
