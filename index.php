@@ -101,10 +101,10 @@
                 <h4>Moove-it Mock</h4>
                 <img src="assets/w2.png" alt="" class="work-img">
             </a>
-            <a href="https://twitch-1995.herokuapp.com/" target="blank" class="work">
+            <a href="https://video-player1995.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c5"></div>
-                <h4>Twitch Viewer</h4>
-                <img src="assets/w3.png" alt="" class="work-img">
+                <h4>YT Video Clip Looper</h4>
+                <img src="assets/w7.png" alt="" class="work-img">
             </a>
         </div>
     </div>
