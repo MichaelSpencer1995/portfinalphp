@@ -38,15 +38,3 @@ function handleScrollIntoView(target){
     const element = document.getElementById(target)
     element.scrollIntoView({behavior: "smooth", block: "start"})
 }
-
-function submitForm() {
-    // const submitBtn = document.getElementById('submit-form')
-    const form = document.getElementById('form')
-    // submitBtn.disabled = true
-    // form.submit()
-    // submitBtn.disabled = false
-    // return true
-    console.log('so nsssice')
-    form.method = 'post'
-    form.submit()
-}
