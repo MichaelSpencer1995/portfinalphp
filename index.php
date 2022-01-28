@@ -101,7 +101,7 @@
                 <h4>Moove-it Mock</h4>
                 <img src="assets/w2.png" alt="" class="work-img">
             </a>
-            <a href="https://video-player1995.herokuapp.com/" target="blank" class="work">
+            <a href="https://video-player95.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c5"></div>
                 <h4>YT Video Clip Looper</h4>
                 <img src="assets/w7.png" alt="" class="work-img">
@@ -204,7 +204,7 @@
                 </div>
             </form>
             <div class="iframe-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3438.3924396482776!2d-97.76937508447692!3d30.48164240474061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d2a0915a4ee1%3A0xf84750c3b259fec!2sFM734%20%26%20Spectrum%20Dr%2C%20Austin%2C%20TX%2078717!5e0!3m2!1sen!2sus!4v1643405010700!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3438.3924396482776!2d-97.76937508447692!3d30.48164240474061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644d2a0915a4ee1%3A0xf84750c3b259fec!2sFM734%20%26%20Spectrum%20Dr%2C%20Austin%2C%20TX%2078717!5e0!3m2!1sen!2sus!4v1643405010700!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
