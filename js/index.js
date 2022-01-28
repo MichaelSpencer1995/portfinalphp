@@ -31,9 +31,15 @@ function handleScroll() {
 
 
 const navLinks = document.getElementsByClassName('nav-links')
+const ctaNav = document.getElementsByClassName('nav-btn')
+const ctaHeader = document.getElementsByClassName('header-btn')
 navLinks[0].addEventListener('click', () => handleScrollIntoView('about'))
-navLinks[1].addEventListener('click', () => handleScrollIntoView('about'))
-navLinks[2].addEventListener('click', () => handleScrollIntoView('about'))
+navLinks[1].addEventListener('click', () => handleScrollIntoView('recent-work'))
+navLinks[2].addEventListener('click', () => handleScrollIntoView('contact'))
+ctaNav[0].addEventListener('click', () => handleScrollIntoView('recent-work'))
+ctaNav[1].addEventListener('click', () => handleScrollIntoView('contact'))
+ctaHeader[0].addEventListener('click', () => handleScrollIntoView('recent-work'))
+ctaHeader[1].addEventListener('click', () => handleScrollIntoView('contact'))
 function handleScrollIntoView(target){
     const element = document.getElementById(target)
     element.scrollIntoView({behavior: "smooth", block: "start"})

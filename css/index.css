@@ -94,6 +94,10 @@ nav ul {
     transition: all 0.3s ease;
 }
 
+.nav-links:hover {
+    cursor: pointer;
+}
+
 .margin-delete {
     margin-left: 0;
 }
