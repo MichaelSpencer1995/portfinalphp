@@ -106,9 +106,11 @@
                 <h4>YT Video Clip Looper</h4>
                 <img src="assets/w7.png" alt="" class="work-img">
             </a>
-            
-    <img src="assets/divider.svg" alt="">
-</div>
+        </div>
+        <div class="divider">
+            <img src="assets/divider.svg" alt="">
+        </div>
+</section>
 <section id="contact">
     <div class="page-container">
         <h2>Get In Touch</h2>

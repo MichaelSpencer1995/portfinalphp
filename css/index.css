@@ -373,6 +373,7 @@ textarea {
     border: none;
     font-weight: 500;
     color: white;
+    -webkit-appearance: none;
 }
 
 #submit-form:hover {
