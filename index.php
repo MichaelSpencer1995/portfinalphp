@@ -106,10 +106,7 @@
                 <h4>YT Video Clip Looper</h4>
                 <img src="assets/w7.png" alt="" class="work-img">
             </a>
-        </div>
-    </div>
-</section>
-<div class="divider">
+            
     <img src="assets/divider.svg" alt="">
 </div>
 <section id="contact">
@@ -130,7 +127,7 @@
                         </div>
                     <?php
                 } else {
-                    if(mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: mspencerphpserver@gmail.com')) {
+                    if(@mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: mspencerphpserver@gmail.com')) {
                         ?>
                             <div class="form-submit-msg success-msg">
                                 <?php echo "✔ Your message was sent succesfully."; ?>
