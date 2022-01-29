@@ -129,7 +129,7 @@
                         </div>
                     <?php
                 } else {
-                    if(@mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: mspencerphpserver@gmail.com')) {
+                    if(mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: emailer@michael-spencer.me')) {
                         ?>
                             <div class="form-submit-msg success-msg">
                                 <?php echo "✔ Your message was sent succesfully."; ?>
