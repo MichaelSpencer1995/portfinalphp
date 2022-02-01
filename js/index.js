@@ -3,6 +3,7 @@ window.addEventListener('scroll', () => handleScroll())
 const nav = document.getElementById('nav')
 const navBtn = document.querySelectorAll('.nav-btn')
 let scrolled = false
+let scrolled1 = false
 let target = 150
 
 
@@ -19,13 +20,17 @@ function handleScroll() {
     if(window.scrollY >= target && !scrolled) {
         scrolled = true
         nav.classList.add('scrolled')
+        nav.classList.remove('preshift')
         navBtn[0].classList.remove('hide')
         navBtn[1].classList.remove('hide')
-    } else if(window.scrollY < target && scrolled) {
+    } 
+    if(window.scrollY < target && scrolled) {
         scrolled = false
         nav.classList.remove('scrolled')
+        // nav.classList.remove('position-relative')
         navBtn[0].classList.add('hide')
         navBtn[1].classList.add('hide')
+        
     }
 }
 
