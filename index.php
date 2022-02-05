@@ -41,8 +41,8 @@
 </section>
 <section id="about">
     <div class="page-container">
-        <h2>About Me</h2>
-        <p>My name is Michael Spencer, I am a freelance web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
+        <h2 id="about-h2">About Me</h2>
+        <p id="about-p">My name is Michael Spencer, I am a freelance web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
         <div class="techs-container">
             <div class="tech">
                 <img src="assets/html5.svg" alt="" class="tech-icon">
@@ -101,10 +101,10 @@
                 <h4>Moove-it Mock</h4>
                 <img src="assets/w2.png" alt="" class="work-img">
             </a>
-            <a href="https://video-player95.herokuapp.com/" target="blank" class="work">
+            <a href="https://cubetimer95.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c5"></div>
-                <h4>YT Video Clip Looper</h4>
-                <img src="assets/w7.png" alt="" class="work-img">
+                <h4>Puzzle Timer</h4>
+                <img src="assets/w8.png" alt="" class="work-img">
             </a>
         </div>
         <div class="divider">
@@ -129,7 +129,7 @@
                         </div>
                     <?php
                 } else {
-                    if(mail('biglazypitufo@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: emailer@michael-spencer.me')) {
+                    if(mail('313webcreations@gmail.com', 'Potential Client', 'name: ' . $name . ', number: ' . $number . ', email: ' . $email . ', message: ' . $message, 'From: emailer@michael-spencer.me')) {
                         ?>
                             <div class="form-submit-msg success-msg">
                                 <?php echo "✔ Your message was sent succesfully."; ?>
