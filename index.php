@@ -91,7 +91,7 @@
         <h2>Recent Work</h2>
         <p>Web Mock-ups and javascript apps</p>
         <div class="works-container">
-            <a href="https://ms2048.herokuapp.com/" target="blank" class="work">
+            <a href="https://z2048.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c2"></div>
                 <h4>2048</h4>
                 <img src="assets/w1.png" alt="" class="work-img">
