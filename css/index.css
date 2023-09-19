@@ -8,16 +8,20 @@
 }
 
 button, h1, h2, h3, h4, h5 {
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif; */
 }
 
 h2 {
-    font-size: 27px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
 }
 
 .page-container {
-    width: 80%;
+    width: 94%;
 }
 
 section {
@@ -47,7 +51,7 @@ nav {
     position: fixed;
     background: #111;
     box-sizing: border-box;
-    padding: 36px 0;
+    padding: 9px 0;
     z-index: 999;
     transition: all 0.3s ease;
 }
@@ -60,15 +64,15 @@ nav ul {
 
 .btn {
     transition: all 0.3s ease;
-    font-family: 'Ubuntu',sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    /* font-family: 'Ubuntu',sans-serif;
+    font-family: 'Open Sans', sans-serif; */
+    font-size: 9px;
     font-weight: 500;
     border: none;
     border-radius: 999px;
-    width: 170px;
+    width: 147px;
     margin-right: 10px;
-    height: 48px;
+    height: 33px;
 }
 
 .btn:hover {
@@ -77,7 +81,9 @@ nav ul {
 }
 
 .btn-primary {
-    background: #82b342;
+    background: #3e6ae1;
+    background-color: #2258ff;
+    background-color: #734cff;
     color: #fff;
 }
 
@@ -87,7 +93,7 @@ nav ul {
 }
 
 .nav-links {
-    font-size: 16px;
+    font-size: 10px;
     background: none;
     border: none;
     font-weight: 600;
@@ -107,7 +113,7 @@ nav ul {
 }
 
 .nav-links:hover {
-    color: #82b342;
+    color: #4e69da;
 }
 
 #header {
@@ -117,6 +123,7 @@ nav ul {
 
 .hero {
     background-image: url("../assets/heroimagemain.jpg");
+    background-attachment: fixed;
     background-size: cover;
     /* background: #222; */
     width: 100%;
@@ -134,7 +141,7 @@ nav ul {
 .header-content {
     position: absolute;
     margin: 0 auto;
-    top: 90px;
+    top: -6px;
     left: 0;
     width: 100vw;
     height: 100vh;
@@ -145,34 +152,36 @@ nav ul {
 }
 
 .header-content h1 {
-    font-size: 55px;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
 }
 
 .header-content p {
     color: #ddd;
-    font-size: 35px;
-    margin-bottom: 77px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    margin-top: 4px;
     font-weight: 300;
 }
 
 section#about {
-    padding: 150px 0;
+    padding: 90px 0;
     text-align: center;
 }
 
 section#about h2 {
     position: relative;
     margin-bottom: 20px;
-    left: -200px;
-    opacity: 0;
+    /* left: -200px; */
+    /* opacity: 0; */
 }
 
 section#about p {
     position: relative;
     margin-bottom: 20px;
-    left: 200px;
-    opacity: 0;
+    /* left: 200px;
+    opacity: 0; */
 }
 
 .techs-container {
@@ -180,16 +189,21 @@ section#about p {
 }
 
 .tech img {
-    width: 70px;
+    width: 26px;
 }
 
 .tech h4 {
     margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 section#what-i-can-do {
     background: #e2f7ff;
-    padding: 150px 0;
+    background-color: #cad3e4;
+    background-color: #cfdbed;
+    padding: 100px 0;
+    padding-bottom: 80px;
     text-align: center;
 }
 
@@ -207,12 +221,13 @@ section#what-i-can-do p {
 }
 
 .wicd {
-    width: 30%;
+    width: 25%;
 }
 
 .wicd i {
     padding-bottom: 10px;
-    color: #82b342;
+    color: #4e69da;
+    color: #734cff;
 }
 
 .wicd h4 {
@@ -220,8 +235,8 @@ section#what-i-can-do p {
 }
 
 section#recent-work {
-    padding: 150px 0;
-    padding-bottom: 100px;
+    padding: 100px 0;
+    /* padding-bottom: 100px; */
     text-align: center;
 }
 
@@ -240,10 +255,10 @@ section#recent-work p {
 }
 
 .work {
-    height: 25vw;
+    height: 18vw;
     position: relative;
     margin-bottom: 50px;
-    flex-basis: 30%;
+    flex-basis: 31%;
     border-radius: 4px;
     overflow: hidden;
     transition: all 0.25s ease-in;
@@ -275,21 +290,32 @@ section#recent-work p {
 
 .c1 {
     background: #e4c0ffd0;
+    background: #767676d0;
 }
 .c2 {
     background: #ffc0c9d0;
+    background: #767676d0;
+
 }
 .c3 {
     background: #fff7c0d0;
+    background: #767676d0;
+
 }
 .c4 {
     background: #c0ffc2d0;
+    background: #181818d0;
+
 }
 .c5 {
     background: #c0dfffd0;
+    background: #767676d0;
+
 }
 .c6 {
     background: #ffd7c0d0;
+    background: #767676d0;
+
 }
 
 .divider {
@@ -303,7 +329,7 @@ section#recent-work p {
 }
 
 section#contact {
-    padding: 150px 0;
+    /* padding: 90px 0; */
 }
 
 .contact-container {
@@ -368,8 +394,8 @@ input, textarea {
     margin: 0;
     height: 36px;
     box-sizing: border-box;
-    background: #f5f5f5;
-    border: none;
+    background: #fff;
+    border: #909090 1px solid;
 }
 
 textarea {
@@ -414,17 +440,17 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: #f5f5f5;
-    height: 150px;
+    background: #ffffff;
+    padding: 10px;
 }
 
 footer p {
-    font-size: 15px;
+    /* font-size: 15px; */
     color: #919191;
     text-align: center;
 }
 
-@media(max-width: 1000px) {
+/* @media(max-width: 1000px) {
     .btn {
         width: 143px;
     }
@@ -444,7 +470,7 @@ footer p {
     .page-container {
         width: 90%;
     }
-}
+} */
 
 @media(max-width: 768px) {
     .header-content h1 {

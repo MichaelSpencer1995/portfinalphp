@@ -37,23 +37,23 @@ function handleScroll() {
         nav.classList.remove('return-nav') 
     }
 
-    if(window.scrollY >= aboutSection.h2.target && !aboutSection.h2.scrolled) {
-        aboutSection.h2.scrolled =  true
-        aboutH2.classList.add('return-element')
-    } 
-    if(window.scrollY < aboutSection.h2.target && aboutSection.h2.scrolled) {
-        aboutSection.h2.scrolled =  false
-        aboutH2.classList.remove('return-element')        
-    }
+    // if(window.scrollY >= aboutSection.h2.target && !aboutSection.h2.scrolled) {
+    //     aboutSection.h2.scrolled =  true
+    //     aboutH2.classList.add('return-element')
+    // } 
+    // if(window.scrollY < aboutSection.h2.target && aboutSection.h2.scrolled) {
+    //     aboutSection.h2.scrolled =  false
+    //     aboutH2.classList.remove('return-element')        
+    // }
 
-    if(window.scrollY >= aboutSection.p.target && !aboutSection.p.scrolled) {
-        aboutSection.p.scrolled =  true
-        aboutP.classList.add('return-element')
-    } 
-    if(window.scrollY < aboutSection.p.target && aboutSection.p.scrolled) {
-        aboutSection.p.scrolled =  false
-        aboutP.classList.remove('return-element')        
-    }
+    // if(window.scrollY >= aboutSection.p.target && !aboutSection.p.scrolled) {
+    //     aboutSection.p.scrolled =  true
+    //     aboutP.classList.add('return-element')
+    // } 
+    // if(window.scrollY < aboutSection.p.target && aboutSection.p.scrolled) {
+    //     aboutSection.p.scrolled =  false
+    //     aboutP.classList.remove('return-element')        
+    // }
 }
 
 

@@ -65,8 +65,8 @@
 </section>
 <section id="what-i-can-do">
     <div class="page-container">
-        <h2>What I Can Do</h2>
-        <p>Creating an aesthetically pleasing and easy user experience.</p>
+        <!-- <h2>What I Can Do</h2>
+        <p>Creating an aesthetically pleasing and easy user experience.</p> -->
         <div class="wicd-tri-container">
             <div class="wicd">
                 <i class="fas fa-th-list fa-3x"></i>
@@ -89,7 +89,7 @@
 <section id="recent-work">
     <div class="page-container">
         <h2>Recent Work</h2>
-        <p>Web Mock-ups and javascript apps</p>
+        <!-- <p>Web Mock-ups and javascript apps</p> -->
         <div class="works-container">
             <a href="https://z2048.herokuapp.com/" target="blank" class="work">
                 <div class="work-overlay c2"></div>
@@ -107,9 +107,9 @@
                 <img src="assets/w8.png" alt="" class="work-img">
             </a>
         </div>
-        <div class="divider">
+        <!-- <div class="divider">
             <img src="assets/divider.svg" alt="">
-        </div>
+        </div> -->
 </section>
 <section id="contact">
     <div class="page-container">
