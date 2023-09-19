@@ -17,11 +17,11 @@ h2 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .page-container {
-    width: 94%;
+    width: 96%;
 }
 
 section {
@@ -85,7 +85,7 @@ nav ul {
     background-color: #2258ff;
     background-color: #734cff;
     background-color: #d77a3c;
-    background-color: #ff952f;
+    background-color: #df892a;
     color: #fff;
 }
 
@@ -198,12 +198,14 @@ section#about p {
     background-image: url("../assets/me.jpg");
     background-size: 81%;
     background-position: 49% 35%;
+    overflow: hidden;
     /* background-repeat: no-repeat; */
 }
 
-.me img {
-    border-radius: 999px;
+.me-overlay {
     width: 100%;
+    height: 100%;
+    background: #0a0c0c3b;
 }
 
 .tech img {
@@ -248,11 +250,12 @@ section#what-i-can-do p {
     color: #4e69da;
     color: #734cff;
     color: #d77a3c;
-    color: #ff952f;
+    color: #df892a;
 }
 
 .wicd h4 {
     padding-bottom: 10px;
+    font-size: 13px;
 }
 
 section#recent-work {
@@ -494,12 +497,12 @@ footer p {
 } */
 
 @media(max-width: 768px) {
-    .header-content h1 {
+    /* .header-content h1 {
         font-size: 43px;
     }
     .header-content p {
         font-size: 21px;
-    }
+    } */
     .hide-mobile {
         display: none;
     }
@@ -507,7 +510,7 @@ footer p {
         width: 100%;
     }
     .btn {
-        width: 200px;
+        width: 111px;
     }
     .btn-primary {
         margin-bottom: 10px;
