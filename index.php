@@ -42,8 +42,11 @@
 <section id="about">
     <div class="page-container">
         <h2 id="about-h2">About Me</h2>
-        <p id="about-p">My name is Michael Spencer, I am a freelance web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
-        <div class="techs-container">
+        <p id="about-p">My name is Michael Spencer, I am a Fullstack web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
+        <div class="me">
+            <!-- <img src="assets/me.jpg"> -->
+        </div>
+        <!-- <div class="techs-container">
             <div class="tech">
                 <img src="assets/html5.svg" alt="" class="tech-icon">
                 <h4>HTML5</h4>
@@ -60,7 +63,7 @@
                 <img src="assets/mobile-alt.svg" alt="" class="tech-icon">
                 <h4>Responsive Design</h4>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <section id="what-i-can-do">
