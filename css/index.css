@@ -169,14 +169,15 @@ nav ul {
 }
 
 section#about {
-    padding: 150px 0;
-    padding-bottom: 107px;
+    padding: 87px 0;
+    padding-bottom: 46px;
     text-align: center;
 }
 
 section#about h2 {
     position: relative;
     margin-bottom: 20px;
+    left: 6px;
     /* left: -200px; */
     /* opacity: 0; */
 }
@@ -193,8 +194,10 @@ section#about p {
 }
 
 .me {
-    width: 150px;
-    height: 150px;
+    position: relative;
+    top: -9px;
+    width: 120px;
+    height: 120px;
     border-radius: 999px;
     margin: 0 auto;
     margin-top: 30px;
@@ -208,7 +211,7 @@ section#about p {
 .me-overlay {
     width: 100%;
     height: 100%;
-    background: #0a0c0c3b;
+    background:#00000017;
 }
 
 .tech img {
@@ -228,7 +231,7 @@ section#what-i-can-do {
     background-color: #e1cfbd;
     background-color: #bddee1;
     background-color: #bdd5e1;
-    padding: 150px 0px;
+    padding: 82px 0px;
     padding-bottom: 60px;
     text-align: center;
 }
