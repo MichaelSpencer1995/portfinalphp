@@ -3,7 +3,7 @@
     margin: 0;
     list-style-type: none;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     transition: all 0.3s ease;
 }
 
@@ -13,7 +13,7 @@ button, h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 p {
@@ -70,8 +70,8 @@ nav ul {
     font-weight: 500;
     border: none;
     border-radius: 999px;
-    width: 147px;
-    margin-right: 10px;
+    width: 132px;
+    margin-right: 5px;
     height: 33px;
 }
 
@@ -161,9 +161,9 @@ nav ul {
 
 .header-content p {
     color: #ddd;
-    font-size: 13px;
     margin-bottom: 16px;
-    margin-top: 4px;
+    /* font-size: 12px; */
+    margin-top: 3px;
     font-weight: 300;
 }
 
@@ -255,7 +255,7 @@ section#what-i-can-do p {
 
 .wicd h4 {
     padding-bottom: 10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 section#recent-work {
