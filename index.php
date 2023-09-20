@@ -17,7 +17,7 @@
     <nav id="nav">
         <ul class="page-container">
             <li>
-                <button class="btn btn-primary nav-btn">Recent work</button>
+                <button class="btn btn-primary nav-btn">Recent Work</button>
                 <button class="btn btn-secondary nav-btn">Web Solutions</button>
             </li>
             <li class="hide-mobile">
@@ -35,7 +35,7 @@
         <h1>Michael Spencer</h1>
         <p>Beautifully Created Web Experiences</p>
         <div class="cta-container">
-            <button class="btn btn-primary header-btn">Recent work</button>
+            <button class="btn btn-primary header-btn">Recent Work</button>
             <button class="btn btn-secondary header-btn">Web Solutions</button>
         </div>
     </div>

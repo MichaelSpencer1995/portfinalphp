@@ -71,9 +71,9 @@ nav ul {
     font-weight: 500;
     border: none;
     border-radius: 999px;
-    width: 132px;
+    width: 114px;
     margin-right: 5px;
-    height: 33px;
+    height: 34px;
 }
 
 .btn:hover {
@@ -169,8 +169,8 @@ nav ul {
 }
 
 section#about {
-    padding: 87px 0;
-    padding-bottom: 46px;
+    padding: 117px 0;
+    padding-bottom: 71px;
     text-align: center;
 }
 
@@ -231,8 +231,8 @@ section#what-i-can-do {
     background-color: #e1cfbd;
     background-color: #bddee1;
     background-color: #bdd5e1;
-    padding: 82px 0px;
-    padding-bottom: 60px;
+    padding: 94px 0px;
+    padding-bottom: 44px;
     text-align: center;
 }
 
@@ -473,7 +473,7 @@ footer {
     justify-content: center;
     width: 100%;
     background: #ffffff;
-    padding-bottom: 42px;
+    padding-bottom: 36px;
 }
 
 footer p {
