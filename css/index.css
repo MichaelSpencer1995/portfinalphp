@@ -71,7 +71,7 @@ nav ul {
     font-weight: 500;
     border: none;
     border-radius: 999px;
-    width: 114px;
+    width: 136px;
     margin-right: 5px;
     height: 34px;
 }
@@ -155,22 +155,22 @@ nav ul {
 }
 
 .header-content h1 {
-    font-size: 21px;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 200;
     color: white;
 }
 
 .header-content p {
     color: #ddd;
-    margin-bottom: 12px;
-    /* font-size: 12px; */
-    margin-top: 17px;
-    font-weight: 300;
+    margin-bottom: 29px;
+    font-size: 21px;
+    margin-top: 6px;
+    font-weight: 200;
 }
 
 section#about {
-    padding: 182px 0;
-    padding-bottom: 164px;
+    padding: 200px 0;
+    padding-bottom: 200px;
     text-align: center;
 }
 
