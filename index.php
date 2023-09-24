@@ -41,7 +41,7 @@
     </div>
 </section>
 <section id="about">
-    <div class="page-container">
+    <div class="page-container dashed-border">
         <h2 id="about-h2">About Me</h2>
         <p id="about-p">My name is Michael Spencer, I am a Fullstack web developer specialized in creating user friendly websites and user experiences that look great on any desktop or device.</p>
         <div class="me">
