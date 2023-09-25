@@ -65,15 +65,13 @@ nav ul {
 
 .btn {
     transition: all 0.3s ease;
-    /* font-family: 'Ubuntu',sans-serif;
-    font-family: 'Open Sans', sans-serif; */
     font-size: 9px;
     font-weight: 500;
     border: none;
     border-radius: 999px;
-    width: 136px;
+    width: 133px;
     margin-right: 5px;
-    height: 32px;
+    height: 31px;
 }
 
 .btn:hover {
@@ -157,15 +155,15 @@ nav ul {
 
 
 .header-content h1 {
-    font-size: 33px;
+    font-size: 27px;
     font-weight: 200;
     color: #fff;
 }
 
 .header-content p {
     color: #fff;
-    margin-bottom: 33px;
-    font-size: 21px;
+    margin-bottom: 30px;
+    font-size: 18px;
     margin-top: 5px;
     font-weight: 200;
 }
