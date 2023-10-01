@@ -96,17 +96,17 @@
         <h2>Recent Work</h2>
         <!-- <p>Web Mock-ups and javascript apps</p> -->
         <div class="works-container">
-            <a href="https://z2048.herokuapp.com/" target="blank" class="work">
+            <a href="https://ms2048-bb8e8d2c1e85.herokuapp.com" target="blank" class="work">
                 <div class="work-overlay c2"></div>
                 <h4>2048</h4>
                 <img src="assets/w1.png" alt="" class="work-img">
             </a>
-            <a href="https://moove-it-1995.herokuapp.com/" target="blank" class="work">
+            <a href="https://moove-it-mock-d9ff14c2bb3e.herokuapp.com" target="blank" class="work">
                 <div class="work-overlay c4"></div>
                 <h4>Moove-it Mock</h4>
                 <img src="assets/w2.png" alt="" class="work-img">
             </a>
-            <a href="https://cubetimer95.herokuapp.com/" target="blank" class="work">
+            <a href="https://puzzle-timer-898f236d633d.herokuapp.com" target="blank" class="work">
                 <div class="work-overlay c5"></div>
                 <h4>Puzzle Timer</h4>
                 <img src="assets/w8.png" alt="" class="work-img">
