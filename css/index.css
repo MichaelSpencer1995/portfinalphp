@@ -126,6 +126,7 @@ nav ul {
     background-image: url("../assets/heroimagemain.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-repeat: no-repeat;
     /* background: #222; */
     width: 100%;
     height: 100vh;
@@ -166,6 +167,7 @@ nav ul {
     font-size: 18px;
     margin-top: 5px;
     font-weight: 200;
+    text-align: center;
 }
 
 section#about {
@@ -516,6 +518,11 @@ footer p {
     .header-content p {
         font-size: 21px;
     } */
+    .hero {
+        background-attachment: scroll;
+        background-size: 430%;
+        background-position: 83% 49%;
+    }
     .hide-mobile {
         display: none;
     }
